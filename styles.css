@@ -2,6 +2,7 @@
 /* styles for screens larger than 801px wide */
 @media screen and (min-width: 801px) {
 body {
+     text-align: center;
 }
 
 #wrapper {
