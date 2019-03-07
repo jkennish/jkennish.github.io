@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-	background-color: green;
+	background-color: grey;
     height: 130px;
     background-image: url(banner-wide.png);
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body {
 }
 
 #header {
-	background-color: aqua;
+	background-color: maroon;
     height: 130px;
     background-image: url(banner-medium.png);
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body {
 }
 
 #header {
-	background-color: yellow;
+	background-color: black;
     height: 130px;
     background-image: url(banner-small.png);
     background-repeat: no-repeat;
