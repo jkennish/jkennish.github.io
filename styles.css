@@ -27,6 +27,7 @@ body {
 	-moz-column-gap:40px; /* Firefox */
 	-webkit-column-gap:40px; /* Safari and Chrome */
 	column-gap:40px;
+        text-align: center;
 }
 
 #footer {
@@ -60,6 +61,7 @@ body {
 	-moz-column-gap:40px; /* Firefox */
 	-webkit-column-gap:40px; /* Safari and Chrome */
 	column-gap:40px;
+        text-align: center;
 }
 
 }
@@ -88,6 +90,7 @@ body {
 	-moz-column-count:1; /* Firefox */
 	-webkit-column-count:1; /* Safari and Chrome */
 	column-count:1;
+        text-align: center;
 }
 
 }
