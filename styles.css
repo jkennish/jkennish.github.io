@@ -16,7 +16,7 @@ body {
 #header {
 	background-color: black;
     height: 130px;
-    background-image: url(banner-wide.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -50,7 +50,7 @@ body {
 #header {
 	background-color: maroon;
     height: 130px;
-    background-image: url(banner-medium.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -82,7 +82,7 @@ body {
 #header {
 	background-color: black;
     height: 130px;
-    background-image: url(banner-small.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
 }
