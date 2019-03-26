@@ -3,6 +3,7 @@
 @media screen and (min-width: 801px) {
 body {
      text-align: center;
+     background-color: #D3D3D3;
 }
 
 #wrapper {
