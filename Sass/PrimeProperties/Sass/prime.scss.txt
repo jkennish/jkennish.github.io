@@ -1,0 +1,112 @@
+$myColor: #blue;
+$myFontSize: 10px;
+$myWidth: 80%;
+@debug grayscale(#003366);
+@mixin border {
+   border: 2px solid black;
+}
+
+header, nav, main, footer { display: block; }
+body { background-color: #000033;
+      background-image: url(primehorizontal.png);
+      color: $myColor;
+	  font-family: Arial, Helvetica, sans-serif;	  
+}
+#wrapper { width: $myWidth;
+           min-width: 700px;
+		   max-width: 960px;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #FFFFCC;
+		   padding: 0 0 20px 30px;
+		   @include border;
+		   border-radius: 15px;
+		   box-shadow: inset -3px -3px 3px 3px #00332B;
+}
+header { color: #48751A;
+        background-image: url(primelogo.gif);
+		background-repeat: no-repeat;
+		height: 100px;
+}
+h1 { text-indent: 100%;
+     white-space: nowrap; 
+     overflow: hidden;
+}
+h2 { color: #003366;
+}
+h3 { color: #006600;
+    padding-top: 10px;	
+}
+nav { font-weight: bold;
+     font-size: $myFontSize;
+	 float: left;
+	 width: 150px;
+}
+nav a { text-decoration: none;
+      display: block;
+      text-align: center;
+      color: #FFFFCC;
+      font-weight: bold;
+      border: 3px outset #CCCCCC;
+       padding: 5px;
+}
+nav a:link { background-color: #003366; }
+nav a:visited { background-color: #48751A; }
+nav a:hover { border: 3px inset #333333; }
+nav ul { list-style-type: none;
+        margin: 0;
+        padding-left: 0; 
+}
+main { margin-left: 180px;
+        padding: 0 20px 20px 0;
+}
+main ul { list-style-position: inside; }
+dd { font-style: italic;
+    font-size: 0.90em;
+	line-height: 200%;
+}
+.contact { font-weight: bold;
+           font-size: 0.90em;
+		   font-family: "Times New Roman", serif;
+}
+.floatleft { float: left;
+             padding-right: 20px;
+			 padding-bottom: 20px;
+}
+.clear { clear: left; }
+img { border-style: none; }
+footer { font-size: 0.60em;
+       font-style: italic;
+	   clear: both;
+	   margin-left: 180px;
+}
+#mobile { display: none; }
+#desktop { display: inline; }
+
+
+@media only screen and (max-width: 1024px) {
+  body { margin: 0; padding: 0; background-color:#FFFFCC; background-image: none; }
+  #wrapper {  width: 100%; min-width: 0; margin: 0; padding: 0; box-shadow: none; border-radius: 0; border-style: none; }
+  header { background-image: url(primemobile.gif); 
+         background-repeat: no-repeat;
+		 text-shadow: 1px 1px 1px #000033;
+		 height: 100%; }
+  h1 { margin: 0; padding-left: 2em; 
+       text-indent: 0; font-size: 3.7em; white-space: normal;  }
+  nav { float: none; width: auto; margin-top: 0.5em; }
+  nav a { padding: 0.2em; margin-left: 0.3em; float: left; width: 20%; }
+  main { padding: 2.5em 1em ; margin: 0; font-size: 90%; clear: both; }
+}
+@media only screen and (max-width: 768px) {
+  h1  { padding-top: 0.25em; padding-left: 1.5em; font-size: 2.4em;
+  }
+  nav { width: 98%; }
+  nav a { padding: 0.5em; width: 40%; float: left; min-width: 5em; margin-left: 0.5em; }
+  main { padding: 0.6em;}
+  .floatleft { float: none; padding-right: 0; padding-bottom: 0; }
+  h3 { padding-top: 0; margin: 0; }
+  dd { line-height: 100%; }
+  footer { padding: 0.5em; margin: 0; }
+  #mobile { display: inline; }
+ #desktop { display: none; }
+ }  
