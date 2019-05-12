@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 801px) {
+body {
+     text-align: center;
+     background-color: #ADD8E6;
+}
+h1 {
+     text-align: left;
+}
+
+h2 {
+     text-align: left;
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+body {
+     text-align: center;
+     background-color: #C68E17;
+}
+
+h1 {
+     text-align: left;
+}
+
+h2 {
+     text-align: left;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+body {
+     text-align: center;
+     margin-left: 0px;
+     background-color: #52D017;
+}
+
+h1 {
+     text-align: center;
+}
+
+h2 {
+     text-align: center;
+}
+
+}
