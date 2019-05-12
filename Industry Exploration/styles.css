@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 801px) {
+body {
+     background-color: #EB984E;
+}
+h1 {
+     text-align: left;
+}
+
+h2 {
+     text-align: left;
+}
+.wrapper {
+     width: 75%;
+     margin: 0 auto;
+}
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+body {
+     background-color: #F1C40F;
+}
+
+h1 {
+     text-align: left;
+}
+
+h2 {
+     text-align: left;
+}
+
+.wrapper {
+     width: 75%;
+     margin: 0 auto;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+body {
+     margin-left: 0px;
+     background-color: #D2B4DE;
+}
+
+h1 {
+     text-align: center;
+}
+
+h2 {
+     text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+}
